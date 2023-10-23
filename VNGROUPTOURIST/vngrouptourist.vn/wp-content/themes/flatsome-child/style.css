@@ -1,0 +1,500 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.thongtintour>p > i {
+color: #3498db;
+}
+.thongtintour>p {
+font-weight:bold;
+}
+ .nav-dark .nav>li>a{
+    color: #ffffff;
+}
+.dat-tour {
+    background: #33d69a;
+    padding: 10px !important;
+}
+.dat-tour .product-title {
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+ul.thong-tin-dau, ul.thong-tin-sau {
+    border-bottom: 2px solid white;
+    width: 100%;
+    list-style-type: none;
+}
+ul.thong-tin-dau .trai, ul.thong-tin-sau .trai {
+    width: 50%;
+    float: left;
+}
+ul.thong-tin-dau .phai, ul.thong-tin-sau .phai {
+    width: 50%;
+    float: right;
+}
+ul.thong-tin-dau p, ul.thong-tin-sau p {
+    color: white;
+    margin-bottom: 0px;
+}
+ul.thong-tin-dau, ul.thong-tin-sau {
+    border-bottom: 2px solid white;
+    width: 100%;
+    list-style-type: none;
+}
+ul.thong-tin-dau p, ul.thong-tin-sau p {
+    color: white;
+    margin-bottom: 0px;
+}
+.dat-tour .tien {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ff0;
+    text-shadow: 1px 1px #999;
+}
+.gia-goc {
+    text-decoration: line-through;
+}
+.button-dat-tour {
+    padding-top: 10px;
+}
+.dat-tour .fancy-single {
+    background: #f39c12;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.form-tu-van {
+
+    margin-top: 10px;
+    border: 2px dashed #3498db;
+        padding: 0px 30px !important;
+}
+h5.form-tu-van{
+text-align:center;
+margin:auto;
+}
+.item-tour-type {
+    height: 75px;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.f-left {
+    float: left;
+}
+
+
+.item-tour-type-icon {
+    background: #3498db;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 81px;
+    height: 74px;
+    padding-top: 19px;
+    text-align: center;
+}
+
+
+
+.item-tour-type-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #3498db;
+    padding-left: 15px;
+}
+
+
+.header-bottom {
+    background-color: #33d69a !important;
+}
+
+.item-tour-type-icon {
+    padding-top: unset;
+    width: 74px;
+    height: 74px;
+    padding: 7px;
+}
+
+.message-box-bg-overlay.bg-fill.fill {
+    background-color: #33d69a !important;
+}
+
+.item-tour-type-icon {
+    background-color: #33d69a !important;
+}
+
+.item-tour-type {
+    border: 1px solid #33d69a !important;
+}
+
+.item-tour-type-title {
+    color: #33d69a !important;
+}
+
+.tieu-de-tour {
+    color: #33d69a !important;
+}
+
+.footer-2 {
+    background-color: #33d69a !important;
+}
+
+.widgets-boxed .widget h3 {
+    background-color: #33d69a !important;
+}
+
+#nav_menu-4 {
+    border: 2px solid #33d69a !important;
+}
+
+span.widget-title {
+    background-color: #33d69a !important;
+}
+
+.tabbed-content ul.nav-line> li.active a {
+    background: #33d69a !important;
+}
+
+.icon-text i {
+    background: #33d69a !important;
+    border-radius: 10px;
+}
+
+.tour-title {
+    color: yellow !important;
+    text-transform: uppercase;
+}
+.thong-tin-dau {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.tour-time {
+    font-weight: bolder;
+    background-color: orange !important;
+    color: black !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.thong-tin-dau li p {
+    font-size: 12px !important;
+    height: 50px;
+}
+
+.phai-update {
+    line-height: 40px;
+}
+.tuvan-zone {
+    width: 100%;
+}
+
+p.gia-giam {
+    text-align: center;
+}
+
+p.gia-goc {
+    text-align: center;
+}
+
+.dat-tour .fancy-single {
+    display: block;
+    text-align: center;
+}
+
+.dat-tour .fancy-single:hover {
+    background-color: #33d69a;
+    border: 2px solid white;
+}
+
+.tour-title-top {
+    font-weight: bold;
+}
+
+.google-maps {
+    width: 100%;
+    background-color: red;
+}
+
+.cat-tour-left-side ul li {
+    position: relative;
+    padding-left: 30px;
+    height: 40px;
+    line-height: 23px;
+}
+
+.cat-tour-left-side ul li:hover {
+    padding-left: 40px;
+    font-weight: 600;
+    background-color: #8be7c552;
+    transition: .4s ease-in all;
+}
+
+.cat-tour-left-side ul li:hover a {
+    color: #33d69a;
+}
+
+.cat-tour-left-side ul li:before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 38px;
+    background-image: url(https://vngrouptourist.vn/wp-content/uploads/2023/04/record.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: transparent;
+    background-position: center center;
+    left: 0;
+}
+
+.cat-tour-left-side ul li:hover:before {
+    padding-left: 40px;
+    transition: .4s ease-in all;
+}
+
+.cat-tour-left-side .shop-sidebar {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.box-image div {
+    overflow: hidden;
+    /*position: relative;*/
+}
+
+.box-image div a {
+    height: 165px;
+}
+
+.box-image div img {
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    width: 100%;
+}
+
+.box-image div:hover img {
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+}
+
+.short-tour-des {
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.entry-content h3 {
+    display: block;
+}
+
+.plan-div {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.plan-div #printListTour {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.plan-div #downloadPdf {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.plan-div #printListTour i, .plan-div #downloadPdf i {
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: .1s ease-in all;
+}
+
+.plan-div #printListTour:hover, .plan-div #downloadPdf:hover {
+    cursor: pointer;
+}
+
+.plan-div #printListTour:hover i, .plan-div #downloadPdf:hover i {
+    width: 50px;
+    text-align: center;
+}
+
+.printEl {
+    max-height: 860px;
+    overflow-y: scroll;
+}
+
+.printEl2 {
+    display: none;
+}
+
+.gia-tour-lkh {
+    /*color: red;*/
+    /*font-weight: bold;*/
+}
+
+.lich-khoi-hanh-tk {
+    height: 50px;
+    line-height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    padding-left: 15px;
+}
+
+.lich-khoi-hanh-tk i {
+    color: white;
+    background-color: orange;
+}
+
+.detailcall-1 {
+    background-color: orange !important;
+    box-shadow: 0 -3px 0 0 #b3601a inset !important;
+}
+
+.html_topbar_right {
+    display: none;
+}
+
+.box-image div a img {
+    height: 100%;
+}
+
+.tabbed-content table tr {
+    border: unset;
+}
+
+.tabbed-content table tr td {
+    border: 1px solid #584848;
+}
+
+.tabbed-content table.alignleft {
+    height: auto !important;
+}
+
+.tabbed-content table.alignleft tr {
+    border: unset;
+}
+.tabbed-content table.alignleft td {
+    background-color: #34d69a;
+    color: white !important;
+    border: 1px solid #584848;
+    padding: 5px;
+}
+
+p.giatiennn {
+    text-shadow: 1px 1px #3b3b3b;
+    font-size: 45px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: orange !important;
+}
+
+.table-title {
+    padding: 0 !important;
+}
+
+table.table-title td {
+    border: none !important;
+}
+
+table.table-title tr {
+}
+
+table.table-title td {
+    border: none !important;
+    background: #34d69a;
+}
+
+table.table-title td span {
+    color: white !important;
+}
+
+p.giatien-in-home {
+    color: red;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+    .lich-khoi-hanh {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .table-lkh {
+        overflow-x:auto;
+    }
+    ul.thong-tin-dau .trai, ul.thong-tin-sau .trai {
+        width: 100%;
+        float: unset;
+        margin-bottom: 0;
+    }
+    ul.thong-tin-dau .phai, ul.thong-tin-sau .phai {
+        width: 100%;
+        float: unset;
+    }
+    .phai-update {
+        line-height: unset;
+    }
+    .tour-time {
+        font-size: 16px;
+    }
+    .thong-tin-dau li p {
+        font-size: 18px;
+    }
+    .plan-div {
+        display: block;
+    }
+    .plan-div #printListTour {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .plan-div #downloadPdf {
+        width: 100%;
+    }
+}
