@@ -52,7 +52,7 @@ function nextend_google_connect_stylesheet() {
   wp_register_style('nextend_google_connect_stylesheet', plugins_url('buttons/google-btn.css', __FILE__));
   wp_enqueue_style('nextend_google_connect_stylesheet');
 }
-if ($new_google_settings['google_load_style']) {
+if ($new_google_settings) {
   add_action('wp_enqueue_scripts', 'nextend_google_connect_stylesheet');
   add_action('login_enqueue_scripts', 'nextend_google_connect_stylesheet');
   add_action('admin_enqueue_scripts', 'nextend_google_connect_stylesheet');

@@ -1,0 +1,7 @@
+#!/bin/ash
+
+# Shell script processing before trigger command
+# Code here
+
+# Execute command
+exec "$@"
