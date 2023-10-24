@@ -14,7 +14,7 @@ add_action( 'woocommerce_before_shop_loop_item', 'woocommerce_show_product_loop_
 function flatsome_product_pr_page(){
    return flatsome_option('products_pr_page');
 }
-add_filter( 'loop_shop_per_page', create_function( '$cols', "return flatsome_product_pr_page();" ), 20 );
+add_filter( 'loop_shop_per_page', 'flatsome_product_pr_page', 20 );
 
 
 /* Set WooCommerce product loop classes */

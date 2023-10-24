@@ -37,6 +37,15 @@ RUN curl -sS https://getcomposer.org/download/latest-stable/composer.phar -o /us
 RUN curl -sS https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o /usr/bin/wp ; \
     chmod +x /usr/bin/wp
 
+# Configure exim service
+RUN sed -i \
+    -e 's/^#\{0,1\}\s\{0,\} keep_environment\s\{0,\}=\s\{0,\}\(.*\)$/keep_environment = /g' \
+    /etc/exim/exim.conf
+
+# Configure shell script
+COPY .docker/entrypoint /usr/bin/entrypoint
+RUN chmod +x /usr/bin/entrypoint
+
 # Copy source code
 COPY . .
 RUN rm -rf .git .docker .composer .npm database
